@@ -20,23 +20,23 @@ In Editor Class:
 ```mermaid
 flowchart LR
     %% --- Raw input ---
-    WELL[(Oil Well)] -->|Crude Oil item: 120| FT{{Fractionating Tower}}
+    WELL[(Oil Well)] -->|Crude Oil: 120| FT{{Fractionating Tower}}
 
     %% --- Primary fractions, top of tower to bottom ---
-    FT --> RG[Refinery Gas<br/>item: 120]
-    FT --> GAS[Gasoline<br/>item: 80]
-    FT --> KER[Kerosene<br/>item: 60]
-    FT --> DSL[Diesel<br/>item: 45]
-    FT --> RES[Heavy Residue<br/>item: 45]
+    FT --> RG[Refinery Gas<br/>120]
+    FT --> GAS[Gasoline<br/>80]
+    FT --> KER[Kerosene<br/>60]
+    FT --> DSL[Diesel<br/>45]
+    FT --> RES[Heavy Residue<br/>45]
 
     %% --- Downstream chains ---
-    RG --> PREF{{Plastic Refinery}} --> PLAS[Plastic item: 40]
+    RG --> PREF{{Plastic Refinery}} --> PLAS[Plastic: 40]
     GAS --> GGEN{{Gasoline Generator}} --> PWR1[Power ~150 MW]
-    KER --> JET{{Jet Workshop}} --> JFUEL[Jet Fuel item: 30]
+    KER --> JET{{Jet Workshop}} --> JFUEL[Jet Fuel: 30]
     DSL --> DGEN{{Diesel Generator}} --> PWR2[Power ~250 MW]
     RES --> COKE{{Coker Unit}}
-    COKE --> BIT[Bitumen item: 20]
-    COKE --> LUBE[Lubricant item: 10]
+    COKE --> BIT[Bitumen: 20]
+    COKE --> LUBE[Lubricant: 10]
 
 	%% --- Helpful products ---
 	LUBE --> ROTORS[Rotor Alt]
@@ -72,9 +72,9 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    RES[Heavy Residue item: 30] --> COKE{{Coker Unit}}
-    COKE -->|66%| BIT[Bitumen item: 20]
-    COKE -->|33%| LUBE[Lubricant item: 10]
+    RES[Heavy Residue: 30] --> COKE{{Coker Unit}}
+    COKE -->|66%| BIT[Bitumen: 20]
+    COKE -->|33%| LUBE[Lubricant: 10]
     BIT --> ASM{{Assembler}} --> PLATE[Reinforced Plate Alternate]
     LUBE --> ASM{{Assembler}} --> GEAR[Lubricated Rotor Alternate]
     classDef product fill:#1d3a1d,stroke:#40c040,color:#fff;

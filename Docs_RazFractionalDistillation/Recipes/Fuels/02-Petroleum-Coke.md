@@ -22,9 +22,9 @@ In Editor Class:
 
 ```mermaid
 flowchart LR
-    HR[Heavy Residue item: 30] --> M{{Coker Unit}}
-    M --> COKE[Petroleum Coke item: 20]
-    M --> RG[Refinery Gas item: 10]
+    HR[Heavy Residue: 30] --> M{{Coker Unit}}
+    M --> COKE[Petroleum Coke: 20]
+    M --> RG[Refinery Gas: 10]
 ```
 
 | | Input | Output | Building | Time |
