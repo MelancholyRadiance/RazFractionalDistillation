@@ -11,7 +11,7 @@ In Editor Class:
 # 🧪 Cracking Intermediates
 
 > [!INFO] The building blocks
-> These aren't fuels or final goods — they're the **monomers and fillers** the
+> These aren't fuels or final goods - they're the **monomers and fillers** the
 > plastic and rubber lines are built from. Most come from cracking refinery gas;
 > carbon black comes off the heavy-residue line.
 

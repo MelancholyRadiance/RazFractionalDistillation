@@ -42,9 +42,9 @@ In Editor Class:
 flowchart TD
     A[Crude Oil] -->|heat between 200°C and 350 °C| B(Fractionating Tower)
     B --> C[Refinery Gas<br/>&lt; 25 °C]
-    B --> D[Gasoline<br/>40–100 °C]
-    B --> E[Kerosene<br/>150–250 °C]
-    B --> F[Diesel<br/>250–350 °C]
+    B --> D[Gasoline<br/>40-100 °C]
+    B --> E[Kerosene<br/>150-250 °C]
+    B --> F[Diesel<br/>250-350 °C]
     B --> G[Heavy Residue<br/>&gt; 350 °C]
     style A fill:#3a2d1a,stroke:#e0a030,color:#fff
     style B fill:#1a2a3a,stroke:#30a0e0,color:#fff
@@ -63,9 +63,9 @@ flowchart TD
 | Fraction        | Boiling range | Tower height | Output / min | Use                |
 | --------------- | ------------- | :----------: | -----------: | ------------------ |
 | Refinery Gas    | `< 25 °C`     | Top          |          120 | Fuel, plastics     |
-| Gasoline        | `40–100 °C`   | Upper        |           80 | Vehicle fuel       |
-| Kerosene        | `150–250 °C`  | Middle       |           60 | Jet fuel, lamps    |
-| Diesel          | `250–350 °C`  | Lower        |           45 | Heavy machinery    |
+| Gasoline        | `40-100 °C`   | Upper        |           80 | Vehicle fuel       |
+| Kerosene        | `150-250 °C`  | Middle       |           60 | Jet fuel, lamps    |
+| Diesel          | `250-350 °C`  | Lower        |           45 | Heavy machinery    |
 | Heavy Residue   | `> 350 °C`    | Bottom       |           30 | Bitumen, lubricant |
 
 ---
