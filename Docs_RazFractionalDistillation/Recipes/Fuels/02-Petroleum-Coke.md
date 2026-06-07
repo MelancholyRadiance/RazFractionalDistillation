@@ -56,4 +56,4 @@ Add diesel to the feed for a higher coke yield per cycle.
 
 ---
 
-> [!SUCCESS] Next tier: **[Treated Kerosene (T3)](./03-Treated-Kerosene.md)**
+> [!SUCCESS] Next tier: **[Treated Kerosene (T3)](03-Kerosene.md)**

@@ -15,10 +15,6 @@ In Editor Class:
 > Each tier burns cleaner and packs more energy than the last, added to the
 > correct fuel generator for a huge amount of power from oil!
 
----
-
-## The ladder at a glance
-
 >[!tip] Treated Kerosene is only a little better than Coke due to the cost of making the fuel
 
 |  Tier  | Fuel             | Made from                  |    Energy    |
