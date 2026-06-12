@@ -52,4 +52,4 @@ flowchart LR
 
 ---
 
-> [!SUCCESS] Next tier: **[Petroleum Coke (T2)](./02-Petroleum-Coke.md)**
+> [!SUCCESS] Next tier: **[Petroleum Coke (T2)](02-High-Density-Coke.md)**
